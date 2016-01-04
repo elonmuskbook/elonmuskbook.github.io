@@ -1,0 +1,4 @@
+Sources:
+Various images: Google images
+TimelineJS: Northwestern Knight Lab (https://timeline.knightlab.com/index.html)
+Theme: Modified Version of Greyscale (https://github.com/IronSummitMedia/startbootstrap-grayscale)
