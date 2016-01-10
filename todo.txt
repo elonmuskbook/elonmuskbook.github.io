@@ -1,0 +1,27 @@
+TODO
+
+Sections:
+- Title Page (Please insert full title of book)
+- About: summarizes website + includes links to all sections
+- Timeline
+- Analysis (includes theme, tone/mood, and quotes/examples)
+- Legacy (after timeline?)
+- Citations
+
+- add all sections to header
+	* Title
+	* About
+	* Timeline
+	* Analysis
+	* Legacy
+	* Citations
+- add content
+	* Title
+	* About
+	* Timeline
+	* Analysis
+	* Legacy
+	* Citations
+- add rocket game
+- create separate page (if needed)
+	- Citations
