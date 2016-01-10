@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SpaceX Rockets Game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" href="../../style.css" media="screen" />
+</head>
+<body>
+<div >
+    <h1 class="title">SpaceX Rockets Game</h1>
+</div>
+<div >
+    <div class="instr">
+        <p>
+        <b>Instructions:</b> <br /><br />
+        In the year 2030, SpaceX has mastered interplanetary spaceflight. In this adventure, Elon Musk and his fleet of Falcon Heavy rockets are travelling to a new alien planet. However, the inhabitants of this alien planet are unwelcoming, and have mastered the ability to create black holes around its home planet to deter new visitors.
+        <br /><br />The SpaceX Rockets game is a two player game. Here, one player (the aliens) puts three black holes in the gravitational field, while the other player (SpaceX) can fire 5 Falcon Heavy rockets and has to get the closest possible to the alien planet. The last black hole that is placed is a super black hole and increases in size/gravitational pull during each round of SpaceX rocket launches. The final score is a normalized value that captures how close the rockets were to the alien planet. The final score range is [0,100], with 100 representing a rocket that landed on the alien planet, and the decreasing scale from 100 representing how far away the rocket ended up from the alien planet.
+        </p>
+        <p>Credits: Adapted from "Gravity" by Team Sacrebleu (A. Sablayrolles, Y. Wang) for Heuristic Problem Solving, Professor Dennis Shasha, New York University</p>
+    </div>
+</div>
+
+<div id="gameArea" >
+    <div id="left-pane" style="float: left">
+        <canvas id="canvas" width="600" height="400">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+    </div>
+    <div id="right-pane" >
+        <form id="gameModeForm">
+            <input type="radio" name="gameMode" value="0" checked="checked"> Aliens (Player) VS SpaceX (Player) <br />
+            <input type="radio" name="gameMode" value="1"> Aliens (Computer) VS SpaceX (Player) <br />
+            <input type="radio" name="gameMode" value="2"> Aliens (Player) VS SpaceX (Computer) <br />
+        </form>
+        <div>
+            <button id="reset" type="button">Reset</button>
+        </div>
+        <div id="scores"></div>
+        <div id="message"></div>
+        
+    </div>
+</div>
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
