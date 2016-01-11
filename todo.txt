@@ -18,9 +18,7 @@ Sections:
 - add content
 	* Title
 	* About
-	- Timeline
-	- Analysis
-	- Legacy
-	- Citations
-- add rocket game
-	- tie into events of SpaceX failures/successes (https://en.wikipedia.org/wiki/List_of_Falcon_1_launches#Fourth_flight)
+	* Timeline
+	* Analysis
+	* Legacy
+	* Citations
